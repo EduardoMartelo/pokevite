@@ -6,7 +6,7 @@ let num = ref(0)
 
 <template>
   <!-- navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <nav class="navbar navbar-expand-lg navbar-light bg-menu">
     <div class="container-fluid">
       <RouterLink class="navbar-brand" to="#">
         <img src="https://cdn-icons-png.flaticon.com/512/188/188987.png" alt="logo" width="30" height="24" class="d-inline-block align-center">
@@ -49,5 +49,10 @@ footer {
   align-items: center;
   justify-content: center;
   height: 56px;
+}
+
+.bg-menu {
+  background: rgb(72,63,251);
+  background: radial-gradient(circle, rgba(72,63,251,0.8071613641456583) 0%, rgba(70,252,244,0.5102415966386555) 100%);
 }
 </style>
